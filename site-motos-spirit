@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Spirit Motos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Spirit Motos</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <h2>Peças Spirit para sua Moto</h2>
+    <p>Qualidade, desempenho e confiança</p>
+</section>
+
+<section class="produtos">
+    <h2>Produtos em Destaque</h2>
+
+    <div class="produto">
+        <h3>Pastilha de Freio Spirit</h3>
+        <p>Alta durabilidade e segurança</p>
+    </div>
+
+    <div class="produto">
+        <h3>Kit Relação Spirit</h3>
+        <p>Desempenho e resistência</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 - Spirit Motos</p>
+</footer>
+
+</body>
+</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+}
+
+header {
+    background: #000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: red;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.banner {
+    background: #222;
+    padding: 80px;
+    text-align: center;
+}
+
+.produtos {
+    padding: 30px;
+}
+
+.produto {
+    background: #222;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid red;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #000;
+}
